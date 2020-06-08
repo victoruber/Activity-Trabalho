@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vetor"
+    tools:context=".FrameLayout">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                        android:layout_width="449dp"
+                        android:layout_height="100dp" app:srcCompat="@drawable/ic_launcher_foreground"
+                        android:id="@+id/imageView7" tools:layout_editor_absoluteY="639dp"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                        android:background="#009688"/>
+                <Button
+                        android:text="BEM VINDOS"
+                        android:layout_width="464dp"
+                        android:textColor="#ffff"
+                        android:layout_height="66dp" android:id="@+id/button4"
+                        tools:layout_editor_absoluteY="1dp" tools:layout_editor_absoluteX="-27dp"
+                        android:backgroundTint="#009688"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+    </LinearLayout>
+
+</FrameLayout>

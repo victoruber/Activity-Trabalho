@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Todos Arquivos"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"/>
+
+    <!-- Button Used -->
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fotos"
+            android:textColor="#ffff"
+            android:background="#009688"
+            android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:textColor="#ffff"
+            android:background="#009688"
+            android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gifs"
+        android:textColor="#ffff"
+        android:background="#009688"
+        android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="EDITOR"
+            android:textColor="#ffff"
+            android:background="#009688"
+            android:layout_weight="1"/>
+    <ImageView
+            android:layout_width="443dp"
+            android:layout_height="67dp" app:srcCompat="@drawable/ic_launcher_foreground"
+            android:id="@+id/imageView" android:layout_weight="0"
+            android:layout_gravity="center_horizontal" android:background="#009688"/>
+
+</LinearLayout>
